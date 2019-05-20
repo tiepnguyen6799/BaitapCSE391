@@ -1,0 +1,57 @@
+/*==Reset CSS==*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*==Style cơ bản cho website==*/
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+
+/*==Style cho menu===*/
+#menu ul {
+  background: #1F568B;
+  list-style-type: none;
+  text-align: center;
+  transform: rotate(0deg);
+}
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 145px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+
+/*==Dropdown Menu==*/
+.sub-menu {
+  display: none;
+  position: absolute;
+  margin: 150px;
+}
+#menu li {
+  position: relative;
+}
+#menu li:hover .sub-menu {
+  display: block;
+}
+.sub-menu li {
+  margin-left: 0 !important;
+}
+
+/*==Menu cấp 3==*/
+.sub-menu > ul {
+  display: none !mportant;
+}
