@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tạo form và các điều khiển</title>
+</head>
+<body>
+    <h2 align="center" style="color:#336600">
+       Phiếu đăng ký tham gia chương trình khuyến mãi
+    </h2>
+    <table width="500" border="1" bordercolor="#003333" cellspacing="0" cellspadding="2" align="center" bgcolor="#E0F9D9"  style="border-collapse:colappse">
+         <tr style="color:#336600">
+             <td with="100px" > Họ và tên </td>
+             <td>
+                 <input type="text" id="Ht" size="50">
+             </td>
+         </tr>
+         <tr style="color:#336600">
+             <td>Địa chỉ</td>
+             <td>
+                 <input type="text"  id="Dc" size="30">
+             </td>
+         </tr>
+         <tr style="color:#336600">
+            <td>Điện thoại</td>
+            <td>
+                <input type="text"  id="Dt" size="20">
+            </td>
+        </tr>
+        <tr style="color:#336600">
+            <td>Phái</td>
+            <td>
+                <input type="radio" name="Phái" id="Nam">Nam
+                <input type="radio" name="Phái" id="Nữ">Nữ
+            </td>
+        </tr>
+        <tr style="color:#336600">
+            <td>Nghề nghiệp</td>
+            <td> 
+                <select id="Nn">
+                <option value="1">Bác sĩ</option>
+                <option value="2">Ký sư</option>
+                <option value="3">Giáo viên</option>
+                <option value="4">Khác</option>
+                </select>
+            </td>
+        </tr>
+        <tr style="color:#336600">
+            <td>Chọn sản phẩm tham gia</td>
+            <td> 
+                <select id="Csp">
+                <option value="1" selected="selected">Kem đánh răng</option>
+                <option value="2">Bột giặt</option>
+                <option value="3">Dầu gội đầu</option>
+                <option value="4">Sữa tắm</option>
+                </select>
+            </td>
+        </tr>
+        <tr style="color:#336600">
+            <td>Số người dự đoán tham gia</td>
+            <td>
+                    <input type="text" name="sntgdđ" size="10">
+            </td>
+           
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="button" value="Đồng ý" onClick="thongbao.innerText='Bạn đã đăng kí thành công!!!'">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <label id="thongbao" style="color:#CC0000"></label>
+
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
