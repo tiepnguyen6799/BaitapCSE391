@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sơ đồ lớp 59HT</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/photo.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/59HTphoto_list.js" defer></script>
+    <script src="js/59HTjq.js" defer></script>
+    <script>
+        // Hàm khởi tạo đồng hồ
+        function startTime() 
+        {
+            var today = new Date();
+
+            var h = today.getHours();
+            var m = today.getMinutes();
+            var s = today.getSeconds();
+
+            m = checkTime(m);
+            s = checkTime(s);
+
+            document.getElementById('timer').innerHTML = h + ":" + m + ":" + s;
+
+            var t = setTimeout(function() {
+                startTime();
+            }, 500);
+        }
+
+        function checkTime(i) 
+        {
+            if (i < 10) {
+                i = "0" + i;
+            }
+            return i;
+        }
+    </script>
+    
+  </head>
+
+  <body>
+      <body onload="startTime()">
+
+          <div id="timer"></div>
+  
+      </body>
+        <div class="container">
+                  <h1>Sơ đồ lớp 59HT</h1>
+                 
+                  <input type="text" id="myInput" placeholder="Tìm kiếm nhanh sinh viên" title="Type in a name of City">
+                 
+                  <ul id="myUL">
+                    <li><a href="img/HaNguyenAnh.jpg">Hà Nguyên Anh</a></li>
+                    <li><a href="img/HoangNgocAnh.jpg">Hoàng Thị Ngọc Ánh</a></li>
+                    <li><a href="img/NguyenTuanAnh.jpg">Nguyễn Tuấn Anh</a></li>
+                    <li><a href="img/ndmd.jpg">Nguyễn Đình Mạnh Đạt</a></li>
+                    <li><a href="img/TranDinhNam.jpg">Trần Đình Nam</a></li>
+                    <li><a href="img/NguyenXuanChien.jpg">Nguyễn Xuân Chiến</a></li>
+                    <li><a href="img/HoangNAnhVu.jpg">Hoàng Nghĩa Anh Vũ </a></li>
+                    <li><a href="img/CuManhDat.jpg">Cù Mạnh Đạt</a></li>
+                    <li><a href="img/DangXuanPhong.jpg">Đặng Xuân Phong</a></li>
+                    <li><a href="img/BuiChienThang.jpg">Bùi Chiến Thắng</a></li>
+                    <li><a href="img/DuongMinhTien.jpg#">Dương Minh Tiến</a></li>
+                    <li><a href="img/HoangNhatMinh.jpg">Hoàng Nhật Minh</a></li>
+                    <li><a href="img/HongSon.jpg">Nguyễn Hồng Sơn</a></li>
+                    <li><a href="img/Huyentrang.jpg">Nguyễn Thị Huyền Trang</a></li>
+                    <li><a href="img/LeHuuTien.jpg">Lê Hữu Tiến</a></li>
+                    <li><a href="img/LeThanhThao.jpg">Lê Thanh Thảo</a></li>
+                    <li><a href="img/LeThiHang.jpg">Lê Thị Hằng</a></li>
+                    <li><a href="img/LeTrongLinh.jpg">Lê Trọng Linh</a></li>
+                    <li><a href="img/LuuTungLam.jpg">Lưu Tùng Lâm</a></li>
+                    <li><a href="img/NgoBaoKhoi.jpg">Ngô Bảo Khôi</a></li>
+                    <li><a href="img/NgocTu.jpg">Nguyễn Ngọc Tú</a></li>
+                    <li><a href="img/NgoDoanDat.jpg">Ngô Doãn Đạt</a></li>
+                    <li><a href="img/NguyenDucDung.jpg">Nguyễn Đức Dũng</a></li>
+                    <li><a href="img/NguyenDuyLinh.jpg">Nguyễn Duy Linh</a></li>
+                    <li><a href="img/NguyenHoa.jpg">Nguyễn Đức Hòa</a></li>
+                    <li><a href="img/NguyenManhHung.jpg">Nguyễn Mạnh Hùng</a></li>
+                    <li><a href="img/NguyenPhuHuy.jpg">Nguyễn Phú Huy</a></li>
+                    <li><a href="img/NguyenThuyHang.jpg">Nguyễn Thúy Hằng</a></li>
+                    <li><a href="img/NguyenTienTiep.jpg">Nguyễn Tiến Tiệp</a></li>
+                    <li><a href="img/NguyenTrang.jpg">Nguyễn Thị Trang</a></li>
+                    <li><a href="img/NguyenVanThang.jpg">Nguyễn Văn Thắng</a></li>
+                    <li><a href="img/PhamMinhHieu.jpg#">Phạm Minh Hiếu</a></li>
+                    <li><a href="img/PhamThiPhuong.jpg#">Phạm Thị Phương</a></li>
+                    <li><a href="img/PhamTienAnh.jpg">Phạm Anh Tiến</a></li>
+                    <li><a href="img/NguyenQuan.jpg#">Nguyễn Hồng Quân</a></li>
+                    <li><a href="img/TranHien.jpg">Trần Thị Hiên</a></li>
+                    <li><a href="img/TranTienVu.jpg">Trần Tiến Vũ</a></li>
+                    <li><a href="img/NguyenThiHue.jpg">Nguyễn Thị Huế</a></li>
+                    <li><a href="img/NguyenThiLoan.jpg">Nguyễn Thị Loan</a></li>
+                    <li><a href="img/PhamVietTung.jpg">Phạm Việt Tùng</a></li>
+                    <li><a href="img/NguyenThanhDu.jpg">Nguyễn Thành Dự</a></li>
+                    <li><a href="img/PhanHuyAnh.jpg">Phan Huy Anh</a></li>
+                    <li><a href="img/TrinhBichNgoc.jpg">Trịnh Thị Bích Ngọc</a></li>
+                    <li><a href="img/VuThiThuy.jpg">Vũ Thị Thùy</a></li>
+                    <li><a href="img/TranLeHang.jpg">Trần Lệ Hằng</a></li>
+                    <li><a href="img/TranThuThuy.jpg">Trần Thu Thủy</a></li>
+                    <li><a href="img/VuMinhLam.jpg">Vũ Minh Lâm</a></li>
+                    <li><a href="img/VuManhTRuongGiang.jpg">Vũ Mạnh Trường Giang</a></li>
+                  </ul>
+                </div>
+  <div class="container-fluid">
+   <div class="row">             
+    <div class="col-sm-4">
+      <h1>Dãy 1</h1>
+      <section id="album-view"> 
+      </section>
+    </div> 
+    <section id="modal-view" class="hidden">
+    </section>
+    <div class="col-sm-4">
+        <h1>Dãy 2</h1>
+        <section id="album-view2"> 
+        </section>
+    </div> 
+      <section id="modal-view2" class="hidden2">
+      </section>
+    <div class="col-sm-3">
+        <h1>Dãy 3</h1>
+        <section id="album-view3"> 
+        </section>
+    </div> 
+      <section id="modal-view3" class="hidden3">
+      </section>
+   </div>
+  </div>
+  <script>
+      var input = document.getElementById("myInput");
+      function myFunction() {
+          var filter, ul, li, a, i;
+          filter = input.value.toUpperCase();
+          ul = document.getElementById("myUL");
+          li = ul.getElementsByTagName("li");
+          if (!filter) {
+            ul.style.display = "none";
+          }else{
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    ul.style.display = "block";
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+
+                }
+            }
+          }
+      }
+      input.addEventListener("keyup", myFunction);
+    </script>
+  </body>
+
+</html>

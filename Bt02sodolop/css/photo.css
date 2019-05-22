@@ -1,0 +1,136 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+#album-view img {
+  border: 1px solid slategray;
+  margin: 5px;
+  padding: 5px;
+  height: 150px;
+}
+#album-view2 img {
+  border: 1px solid slategray;
+  margin: 5px;
+  padding: 5px;
+  height: 150px;
+}
+#album-view3 img {
+  border: 1px solid slategray;
+  margin: 5px;
+  padding: 5px;
+  height: 150px;
+}
+
+#modal-view {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#modal-view2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#modal-view3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal-view img {
+  max-height: 100%;
+  max-width: 100%;
+}
+#modal-view2 img {
+  max-height: 100%;
+  max-width: 100%;
+}
+#modal-view3 img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#modal-view.hidden {
+  display: none;
+}
+#modal-view2.hidden2 {
+  display: none;
+}
+#modal-view3.hidden3 {
+  display: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+* {
+    box-sizing: border-box;
+  }
+  .container {
+    width: 5500px;
+    margin: auto;
+  }
+   
+  #myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+   
+  #myUL {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+  }
+   
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; 
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+   
+  #myUL li a.header {
+    background-color: #e2e2e2;
+    cursor: default;
+  }
+   
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
