@@ -1,0 +1,78 @@
+body {
+    background-color: palevioletred;
+}
+
+.navbar {
+    padding: 0px 0px;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: black;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.active {
+    color: blue;
+    font-weight: bold;
+    border-bottom: 5px solid blue;
+}
+
+.hoptuongtac {
+    width: 55%;
+    background-color: white;
+    margin-top: 70px;
+    border-radius: 15px;
+}
+
+.hoptuongtac .col-1 {
+    padding: 0px 0px 0px 0px;
+}
+
+.hoptuongtac .col-11 {
+    padding: 0px 0px 0px 0px;
+}
+
+.hoptuongtac .col-1 img {
+    width: 20px;
+    height: 20px;
+}
+
+.hoptuongtac .col-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.hoptuongtac .row {
+    padding: 10px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+#input-task {
+    width: 100%;
+}
+
+.hoptuongtac .row-task {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 10px;
+}
+.abc {
+    background-color: blue;
+    font-size: 50%;
+}
